@@ -1,0 +1,5 @@
+本文件介绍API使用已经相关的需要配置的问题。
+配置文件位于本文件夹下usrConfigDefine.h,该文件的使用说明，请到阅读源码
+所有提供的API位于globalAPI.h，各个API的介绍以及需要注意的问题参见源码
+errorNumber.h是配合globalAPI.h使用，里面包含了各种错误码，
+在调用API时需要根据这些返回的错误码做相应的处理过程。
