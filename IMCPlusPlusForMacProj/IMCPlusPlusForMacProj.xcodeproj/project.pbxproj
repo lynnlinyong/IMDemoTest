@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581AE42416844D13007E2AC1 /* libminiupnpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581AE42316844D13007E2AC1 /* libminiupnpc.a */; };
+		581AE42616844D8B007E2AC1 /* libfmodex_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581AE42516844D8B007E2AC1 /* libfmodex_iphonesimulator.a */; };
 		5859619A1681A8F7005D11BC /* IMCPlusPlusForMacProj.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 585961991681A8F7005D11BC /* IMCPlusPlusForMacProj.1 */; };
 		585961A91681A994005D11BC /* testVoipCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585961A71681A994005D11BC /* testVoipCase.cpp */; };
 		585962A81681B0D7005D11BC /* _FindFirst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585961AF1681B0D6005D11BC /* _FindFirst.cpp */; };
@@ -105,12 +107,6 @@
 		585963051681B0D7005D11BC /* VariadicSQLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585962A01681B0D6005D11BC /* VariadicSQLParser.cpp */; };
 		585963061681B0D7005D11BC /* VitaIncludes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585962A21681B0D6005D11BC /* VitaIncludes.cpp */; };
 		585963071681B0D7005D11BC /* WSAStartupSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585962A51681B0D6005D11BC /* WSAStartupSingleton.cpp */; };
-		585963211681B2AB005D11BC /* libfmodevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859631B1681B2AB005D11BC /* libfmodevent.a */; };
-		585963221681B2AB005D11BC /* libfmodeventnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859631C1681B2AB005D11BC /* libfmodeventnet.a */; };
-		585963231681B2AB005D11BC /* libfmodex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859631D1681B2AB005D11BC /* libfmodex.a */; };
-		585963241681B2AB005D11BC /* libfmodex_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859631E1681B2AB005D11BC /* libfmodex_iphoneos.a */; };
-		585963251681B2AB005D11BC /* libfmodex_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859631F1681B2AB005D11BC /* libfmodex_iphonesimulator.a */; };
-		585963261681B2AB005D11BC /* libfmodexL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963201681B2AB005D11BC /* libfmodexL_iphoneos.a */; };
 		585963411681B526005D11BC /* testProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585963331681B526005D11BC /* testProxy.cpp */; };
 		585963421681B526005D11BC /* FMODVoiceAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585963361681B526005D11BC /* FMODVoiceAdapter.cpp */; };
 		585963431681B526005D11BC /* UMainControler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585963381681B526005D11BC /* UMainControler.cpp */; };
@@ -121,43 +117,6 @@
 		5859635A1681BA51005D11BC /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963581681BA51005D11BC /* libspeex.a */; };
 		5859635B1681BA51005D11BC /* libspeexdsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963591681BA51005D11BC /* libspeexdsp.a */; };
 		585963CF1681C128005D11BC /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963CE1681C128005D11BC /* libfmodex.dylib */; };
-		585964281681C536005D11BC /* connecthostport.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963D91681C536005D11BC /* connecthostport.c */; };
-		585964291681C536005D11BC /* connecthostport.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963DB1681C536005D11BC /* connecthostport.o */; };
-		5859642A1681C536005D11BC /* igd_desc_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963DE1681C536005D11BC /* igd_desc_parse.c */; };
-		5859642B1681C536005D11BC /* igd_desc_parse.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963E01681C536005D11BC /* igd_desc_parse.o */; };
-		5859642C1681C536005D11BC /* JavaBridgeTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 585963E21681C536005D11BC /* JavaBridgeTest.java */; };
-		5859642D1681C536005D11BC /* libminiupnpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963E41681C536005D11BC /* libminiupnpc.a */; };
-		5859642E1681C537005D11BC /* libminiupnpc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963E51681C536005D11BC /* libminiupnpc.dylib */; };
-		5859642F1681C537005D11BC /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 585963E71681C536005D11BC /* Makefile */; };
-		585964301681C537005D11BC /* minihttptestserver.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963ED1681C536005D11BC /* minihttptestserver.c */; };
-		585964311681C537005D11BC /* minisoap.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963EE1681C536005D11BC /* minisoap.c */; };
-		585964321681C537005D11BC /* minisoap.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963F01681C536005D11BC /* minisoap.o */; };
-		585964331681C537005D11BC /* minissdpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963F11681C536005D11BC /* minissdpc.c */; };
-		585964341681C537005D11BC /* minissdpc.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963F31681C536005D11BC /* minissdpc.o */; };
-		585964351681C537005D11BC /* miniupnpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963F41681C536005D11BC /* miniupnpc.c */; };
-		585964361681C537005D11BC /* miniupnpc.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963F71681C536005D11BC /* miniupnpc.o */; };
-		585964371681C537005D11BC /* miniupnpcmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963F81681C536005D11BC /* miniupnpcmodule.c */; };
-		585964381681C537005D11BC /* miniwget.c in Sources */ = {isa = PBXBuildFile; fileRef = 585963FD1681C536005D11BC /* miniwget.c */; };
-		585964391681C537005D11BC /* miniwget.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585963FF1681C536005D11BC /* miniwget.o */; };
-		5859643A1681C537005D11BC /* minixml.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964001681C536005D11BC /* minixml.c */; };
-		5859643B1681C537005D11BC /* minixml.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585964021681C536005D11BC /* minixml.o */; };
-		5859643C1681C537005D11BC /* minixmlvalid.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964031681C536005D11BC /* minixmlvalid.c */; };
-		5859643D1681C537005D11BC /* portlistingparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964081681C536005D11BC /* portlistingparse.c */; };
-		5859643E1681C537005D11BC /* portlistingparse.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859640A1681C536005D11BC /* portlistingparse.o */; };
-		5859643F1681C537005D11BC /* receivedata.c in Sources */ = {isa = PBXBuildFile; fileRef = 5859640D1681C536005D11BC /* receivedata.c */; };
-		585964401681C537005D11BC /* receivedata.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859640F1681C536005D11BC /* receivedata.o */; };
-		585964411681C537005D11BC /* testigddescparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964121681C536005D11BC /* testigddescparse.c */; };
-		585964421681C537005D11BC /* testminiwget.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964131681C536005D11BC /* testminiwget.c */; };
-		585964431681C537005D11BC /* testminixml.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964151681C536005D11BC /* testminixml.c */; };
-		585964441681C537005D11BC /* testupnpreplyparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964171681C536005D11BC /* testupnpreplyparse.c */; };
-		585964451681C537005D11BC /* upnpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5859641B1681C536005D11BC /* upnpc.c */; };
-		585964461681C537005D11BC /* upnpc.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859641C1681C536005D11BC /* upnpc.o */; };
-		585964471681C537005D11BC /* upnpcommands.c in Sources */ = {isa = PBXBuildFile; fileRef = 5859641D1681C536005D11BC /* upnpcommands.c */; };
-		585964481681C537005D11BC /* upnpcommands.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859641F1681C536005D11BC /* upnpcommands.o */; };
-		585964491681C537005D11BC /* upnperrors.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964201681C536005D11BC /* upnperrors.c */; };
-		5859644A1681C537005D11BC /* upnperrors.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585964221681C536005D11BC /* upnperrors.o */; };
-		5859644B1681C537005D11BC /* upnpreplyparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 585964231681C536005D11BC /* upnpreplyparse.c */; };
-		5859644C1681C537005D11BC /* upnpreplyparse.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 585964251681C536005D11BC /* upnpreplyparse.o */; };
 		5859644F1681C592005D11BC /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859644E1681C592005D11BC /* Python.framework */; };
 /* End PBXBuildFile section */
 
@@ -175,6 +134,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		581AE42316844D13007E2AC1 /* libminiupnpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminiupnpc.a; sourceTree = "<group>"; };
+		581AE42516844D8B007E2AC1 /* libfmodex_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphonesimulator.a; sourceTree = "<group>"; };
 		585961931681A8F7005D11BC /* IMCPlusPlusForMacProj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IMCPlusPlusForMacProj; sourceTree = BUILT_PRODUCTS_DIR; };
 		585961991681A8F7005D11BC /* IMCPlusPlusForMacProj.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IMCPlusPlusForMacProj.1; sourceTree = "<group>"; };
 		585961A71681A994005D11BC /* testVoipCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testVoipCase.cpp; sourceTree = "<group>"; };
@@ -439,12 +400,6 @@
 		585963161681B263005D11BC /* fmod_event.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod_event.hpp; sourceTree = "<group>"; };
 		585963171681B263005D11BC /* fmod_event_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_event_net.h; sourceTree = "<group>"; };
 		585963181681B263005D11BC /* fmod_event_net.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod_event_net.hpp; sourceTree = "<group>"; };
-		5859631B1681B2AB005D11BC /* libfmodevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodevent.a; sourceTree = "<group>"; };
-		5859631C1681B2AB005D11BC /* libfmodeventnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodeventnet.a; sourceTree = "<group>"; };
-		5859631D1681B2AB005D11BC /* libfmodex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex.a; sourceTree = "<group>"; };
-		5859631E1681B2AB005D11BC /* libfmodex_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphoneos.a; sourceTree = "<group>"; };
-		5859631F1681B2AB005D11BC /* libfmodex_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphonesimulator.a; sourceTree = "<group>"; };
-		585963201681B2AB005D11BC /* libfmodexL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_iphoneos.a; sourceTree = "<group>"; };
 		5859632D1681B526005D11BC /* communicationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = communicationProtocol.h; sourceTree = "<group>"; };
 		5859632E1681B526005D11BC /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
 		5859632F1681B526005D11BC /* errorNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorNumber.h; sourceTree = "<group>"; };
@@ -497,85 +452,6 @@
 		585963C51681BEA9005D11BC /* upnperrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnperrors.h; sourceTree = "<group>"; };
 		585963C61681BEA9005D11BC /* upnpreplyparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpreplyparse.h; sourceTree = "<group>"; };
 		585963CE1681C128005D11BC /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
-		585963D51681C536005D11BC /* bsdqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bsdqueue.h; sourceTree = "<group>"; };
-		585963D61681C536005D11BC /* Changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
-		585963D71681C536005D11BC /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
-		585963D81681C536005D11BC /* codelength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codelength.h; sourceTree = "<group>"; };
-		585963D91681C536005D11BC /* connecthostport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = connecthostport.c; sourceTree = "<group>"; };
-		585963DA1681C536005D11BC /* connecthostport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connecthostport.h; sourceTree = "<group>"; };
-		585963DB1681C536005D11BC /* connecthostport.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = connecthostport.o; sourceTree = "<group>"; };
-		585963DC1681C536005D11BC /* declspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = declspec.h; sourceTree = "<group>"; };
-		585963DD1681C536005D11BC /* external-ip.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "external-ip.sh"; sourceTree = "<group>"; };
-		585963DE1681C536005D11BC /* igd_desc_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = igd_desc_parse.c; sourceTree = "<group>"; };
-		585963DF1681C536005D11BC /* igd_desc_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = igd_desc_parse.h; sourceTree = "<group>"; };
-		585963E01681C536005D11BC /* igd_desc_parse.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = igd_desc_parse.o; sourceTree = "<group>"; };
-		585963E21681C536005D11BC /* JavaBridgeTest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JavaBridgeTest.java; sourceTree = "<group>"; };
-		585963E31681C536005D11BC /* testjava.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = testjava.sh; sourceTree = "<group>"; };
-		585963E41681C536005D11BC /* libminiupnpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminiupnpc.a; sourceTree = "<group>"; };
-		585963E51681C536005D11BC /* libminiupnpc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libminiupnpc.dylib; sourceTree = "<group>"; };
-		585963E61681C536005D11BC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		585963E71681C536005D11BC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		585963E81681C536005D11BC /* Makefile.mingw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.mingw; sourceTree = "<group>"; };
-		585963EA1681C536005D11BC /* miniupnpc.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniupnpc.3; sourceTree = "<group>"; };
-		585963EB1681C536005D11BC /* MANIFEST.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MANIFEST.in; sourceTree = "<group>"; };
-		585963EC1681C536005D11BC /* mingw32make.bat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mingw32make.bat; sourceTree = "<group>"; };
-		585963ED1681C536005D11BC /* minihttptestserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minihttptestserver.c; sourceTree = "<group>"; };
-		585963EE1681C536005D11BC /* minisoap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minisoap.c; sourceTree = "<group>"; };
-		585963EF1681C536005D11BC /* minisoap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minisoap.h; sourceTree = "<group>"; };
-		585963F01681C536005D11BC /* minisoap.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = minisoap.o; sourceTree = "<group>"; };
-		585963F11681C536005D11BC /* minissdpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minissdpc.c; sourceTree = "<group>"; };
-		585963F21681C536005D11BC /* minissdpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minissdpc.h; sourceTree = "<group>"; };
-		585963F31681C536005D11BC /* minissdpc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = minissdpc.o; sourceTree = "<group>"; };
-		585963F41681C536005D11BC /* miniupnpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniupnpc.c; sourceTree = "<group>"; };
-		585963F51681C536005D11BC /* miniupnpc.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniupnpc.def; sourceTree = "<group>"; };
-		585963F61681C536005D11BC /* miniupnpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniupnpc.h; sourceTree = "<group>"; };
-		585963F71681C536005D11BC /* miniupnpc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = miniupnpc.o; sourceTree = "<group>"; };
-		585963F81681C536005D11BC /* miniupnpcmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniupnpcmodule.c; sourceTree = "<group>"; };
-		585963F91681C536005D11BC /* miniupnpcstrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniupnpcstrings.h; sourceTree = "<group>"; };
-		585963FA1681C536005D11BC /* miniupnpcstrings.h.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniupnpcstrings.h.cmake; sourceTree = "<group>"; };
-		585963FB1681C536005D11BC /* miniupnpcstrings.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniupnpcstrings.h.in; sourceTree = "<group>"; };
-		585963FC1681C536005D11BC /* miniupnpctypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniupnpctypes.h; sourceTree = "<group>"; };
-		585963FD1681C536005D11BC /* miniwget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniwget.c; sourceTree = "<group>"; };
-		585963FE1681C536005D11BC /* miniwget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniwget.h; sourceTree = "<group>"; };
-		585963FF1681C536005D11BC /* miniwget.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = miniwget.o; sourceTree = "<group>"; };
-		585964001681C536005D11BC /* minixml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minixml.c; sourceTree = "<group>"; };
-		585964011681C536005D11BC /* minixml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minixml.h; sourceTree = "<group>"; };
-		585964021681C536005D11BC /* minixml.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = minixml.o; sourceTree = "<group>"; };
-		585964031681C536005D11BC /* minixmlvalid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minixmlvalid.c; sourceTree = "<group>"; };
-		585964051681C536005D11BC /* miniupnpc.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniupnpc.sln; sourceTree = "<group>"; };
-		585964061681C536005D11BC /* miniupnpc.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = miniupnpc.vcproj; sourceTree = "<group>"; };
-		585964071681C536005D11BC /* upnpc-static.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "upnpc-static.vcproj"; sourceTree = "<group>"; };
-		585964081681C536005D11BC /* portlistingparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = portlistingparse.c; sourceTree = "<group>"; };
-		585964091681C536005D11BC /* portlistingparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portlistingparse.h; sourceTree = "<group>"; };
-		5859640A1681C536005D11BC /* portlistingparse.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = portlistingparse.o; sourceTree = "<group>"; };
-		5859640B1681C536005D11BC /* pymoduletest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pymoduletest.py; sourceTree = "<group>"; };
-		5859640C1681C536005D11BC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		5859640D1681C536005D11BC /* receivedata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = receivedata.c; sourceTree = "<group>"; };
-		5859640E1681C536005D11BC /* receivedata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = receivedata.h; sourceTree = "<group>"; };
-		5859640F1681C536005D11BC /* receivedata.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = receivedata.o; sourceTree = "<group>"; };
-		585964101681C536005D11BC /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
-		585964111681C536005D11BC /* setupmingw32.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setupmingw32.py; sourceTree = "<group>"; };
-		585964121681C536005D11BC /* testigddescparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testigddescparse.c; sourceTree = "<group>"; };
-		585964131681C536005D11BC /* testminiwget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testminiwget.c; sourceTree = "<group>"; };
-		585964141681C536005D11BC /* testminiwget.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = testminiwget.sh; sourceTree = "<group>"; };
-		585964151681C536005D11BC /* testminixml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testminixml.c; sourceTree = "<group>"; };
-		585964161681C536005D11BC /* testupnpigd.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = testupnpigd.py; sourceTree = "<group>"; };
-		585964171681C536005D11BC /* testupnpreplyparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testupnpreplyparse.c; sourceTree = "<group>"; };
-		585964181681C536005D11BC /* updateminiupnpcstrings.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = updateminiupnpcstrings.sh; sourceTree = "<group>"; };
-		585964191681C536005D11BC /* upnpc-shared */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "upnpc-shared"; sourceTree = "<group>"; };
-		5859641A1681C536005D11BC /* upnpc-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "upnpc-static"; sourceTree = "<group>"; };
-		5859641B1681C536005D11BC /* upnpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnpc.c; sourceTree = "<group>"; };
-		5859641C1681C536005D11BC /* upnpc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = upnpc.o; sourceTree = "<group>"; };
-		5859641D1681C536005D11BC /* upnpcommands.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnpcommands.c; sourceTree = "<group>"; };
-		5859641E1681C536005D11BC /* upnpcommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpcommands.h; sourceTree = "<group>"; };
-		5859641F1681C536005D11BC /* upnpcommands.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = upnpcommands.o; sourceTree = "<group>"; };
-		585964201681C536005D11BC /* upnperrors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnperrors.c; sourceTree = "<group>"; };
-		585964211681C536005D11BC /* upnperrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnperrors.h; sourceTree = "<group>"; };
-		585964221681C536005D11BC /* upnperrors.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = upnperrors.o; sourceTree = "<group>"; };
-		585964231681C536005D11BC /* upnpreplyparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = upnpreplyparse.c; sourceTree = "<group>"; };
-		585964241681C536005D11BC /* upnpreplyparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpreplyparse.h; sourceTree = "<group>"; };
-		585964251681C536005D11BC /* upnpreplyparse.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = upnpreplyparse.o; sourceTree = "<group>"; };
-		585964261681C536005D11BC /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
 		5859644E1681C592005D11BC /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -585,30 +461,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5859644F1681C592005D11BC /* Python.framework in Frameworks */,
-				585963211681B2AB005D11BC /* libfmodevent.a in Frameworks */,
-				585963221681B2AB005D11BC /* libfmodeventnet.a in Frameworks */,
-				585963231681B2AB005D11BC /* libfmodex.a in Frameworks */,
-				585963241681B2AB005D11BC /* libfmodex_iphoneos.a in Frameworks */,
-				585963251681B2AB005D11BC /* libfmodex_iphonesimulator.a in Frameworks */,
-				585963261681B2AB005D11BC /* libfmodexL_iphoneos.a in Frameworks */,
 				5859635A1681BA51005D11BC /* libspeex.a in Frameworks */,
 				5859635B1681BA51005D11BC /* libspeexdsp.a in Frameworks */,
 				585963CF1681C128005D11BC /* libfmodex.dylib in Frameworks */,
-				585964291681C536005D11BC /* connecthostport.o in Frameworks */,
-				5859642B1681C536005D11BC /* igd_desc_parse.o in Frameworks */,
-				5859642D1681C536005D11BC /* libminiupnpc.a in Frameworks */,
-				5859642E1681C537005D11BC /* libminiupnpc.dylib in Frameworks */,
-				585964321681C537005D11BC /* minisoap.o in Frameworks */,
-				585964341681C537005D11BC /* minissdpc.o in Frameworks */,
-				585964361681C537005D11BC /* miniupnpc.o in Frameworks */,
-				585964391681C537005D11BC /* miniwget.o in Frameworks */,
-				5859643B1681C537005D11BC /* minixml.o in Frameworks */,
-				5859643E1681C537005D11BC /* portlistingparse.o in Frameworks */,
-				585964401681C537005D11BC /* receivedata.o in Frameworks */,
-				585964461681C537005D11BC /* upnpc.o in Frameworks */,
-				585964481681C537005D11BC /* upnpcommands.o in Frameworks */,
-				5859644A1681C537005D11BC /* upnperrors.o in Frameworks */,
-				5859644C1681C537005D11BC /* upnpreplyparse.o in Frameworks */,
+				581AE42416844D13007E2AC1 /* libminiupnpc.a in Frameworks */,
+				581AE42616844D8B007E2AC1 /* libfmodex_iphonesimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +492,6 @@
 		585961961681A8F7005D11BC /* IMCPlusPlusForMacProj */ = {
 			isa = PBXGroup;
 			children = (
-				585963D41681C536005D11BC /* miniupnpc */,
 				5859632B1681B526005D11BC /* IMApi */,
 				585963191681B2AB005D11BC /* Libs */,
 				5859630A1681B263005D11BC /* Headers */,
@@ -944,6 +800,7 @@
 		585963191681B2AB005D11BC /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				581AE42316844D13007E2AC1 /* libminiupnpc.a */,
 				585963CE1681C128005D11BC /* libfmodex.dylib */,
 				585963571681BA51005D11BC /* libSpeex */,
 				5859631A1681B2AB005D11BC /* libFmod */,
@@ -954,12 +811,7 @@
 		5859631A1681B2AB005D11BC /* libFmod */ = {
 			isa = PBXGroup;
 			children = (
-				5859631B1681B2AB005D11BC /* libfmodevent.a */,
-				5859631C1681B2AB005D11BC /* libfmodeventnet.a */,
-				5859631D1681B2AB005D11BC /* libfmodex.a */,
-				5859631E1681B2AB005D11BC /* libfmodex_iphoneos.a */,
-				5859631F1681B2AB005D11BC /* libfmodex_iphonesimulator.a */,
-				585963201681B2AB005D11BC /* libfmodexL_iphoneos.a */,
+				581AE42516844D8B007E2AC1 /* libfmodex_iphonesimulator.a */,
 			);
 			path = libFmod;
 			sourceTree = "<group>";
@@ -1063,116 +915,6 @@
 				585963C61681BEA9005D11BC /* upnpreplyparse.h */,
 			);
 			path = miniUpnp;
-			sourceTree = "<group>";
-		};
-		585963D41681C536005D11BC /* miniupnpc */ = {
-			isa = PBXGroup;
-			children = (
-				585963D51681C536005D11BC /* bsdqueue.h */,
-				585963D61681C536005D11BC /* Changelog.txt */,
-				585963D71681C536005D11BC /* CMakeLists.txt */,
-				585963D81681C536005D11BC /* codelength.h */,
-				585963D91681C536005D11BC /* connecthostport.c */,
-				585963DA1681C536005D11BC /* connecthostport.h */,
-				585963DB1681C536005D11BC /* connecthostport.o */,
-				585963DC1681C536005D11BC /* declspec.h */,
-				585963DD1681C536005D11BC /* external-ip.sh */,
-				585963DE1681C536005D11BC /* igd_desc_parse.c */,
-				585963DF1681C536005D11BC /* igd_desc_parse.h */,
-				585963E01681C536005D11BC /* igd_desc_parse.o */,
-				585963E11681C536005D11BC /* java */,
-				585963E41681C536005D11BC /* libminiupnpc.a */,
-				585963E51681C536005D11BC /* libminiupnpc.dylib */,
-				585963E61681C536005D11BC /* LICENSE */,
-				585963E71681C536005D11BC /* Makefile */,
-				585963E81681C536005D11BC /* Makefile.mingw */,
-				585963E91681C536005D11BC /* man3 */,
-				585963EB1681C536005D11BC /* MANIFEST.in */,
-				585963EC1681C536005D11BC /* mingw32make.bat */,
-				585963ED1681C536005D11BC /* minihttptestserver.c */,
-				585963EE1681C536005D11BC /* minisoap.c */,
-				585963EF1681C536005D11BC /* minisoap.h */,
-				585963F01681C536005D11BC /* minisoap.o */,
-				585963F11681C536005D11BC /* minissdpc.c */,
-				585963F21681C536005D11BC /* minissdpc.h */,
-				585963F31681C536005D11BC /* minissdpc.o */,
-				585963F41681C536005D11BC /* miniupnpc.c */,
-				585963F51681C536005D11BC /* miniupnpc.def */,
-				585963F61681C536005D11BC /* miniupnpc.h */,
-				585963F71681C536005D11BC /* miniupnpc.o */,
-				585963F81681C536005D11BC /* miniupnpcmodule.c */,
-				585963F91681C536005D11BC /* miniupnpcstrings.h */,
-				585963FA1681C536005D11BC /* miniupnpcstrings.h.cmake */,
-				585963FB1681C536005D11BC /* miniupnpcstrings.h.in */,
-				585963FC1681C536005D11BC /* miniupnpctypes.h */,
-				585963FD1681C536005D11BC /* miniwget.c */,
-				585963FE1681C536005D11BC /* miniwget.h */,
-				585963FF1681C536005D11BC /* miniwget.o */,
-				585964001681C536005D11BC /* minixml.c */,
-				585964011681C536005D11BC /* minixml.h */,
-				585964021681C536005D11BC /* minixml.o */,
-				585964031681C536005D11BC /* minixmlvalid.c */,
-				585964041681C536005D11BC /* msvc */,
-				585964081681C536005D11BC /* portlistingparse.c */,
-				585964091681C536005D11BC /* portlistingparse.h */,
-				5859640A1681C536005D11BC /* portlistingparse.o */,
-				5859640B1681C536005D11BC /* pymoduletest.py */,
-				5859640C1681C536005D11BC /* README */,
-				5859640D1681C536005D11BC /* receivedata.c */,
-				5859640E1681C536005D11BC /* receivedata.h */,
-				5859640F1681C536005D11BC /* receivedata.o */,
-				585964101681C536005D11BC /* setup.py */,
-				585964111681C536005D11BC /* setupmingw32.py */,
-				585964121681C536005D11BC /* testigddescparse.c */,
-				585964131681C536005D11BC /* testminiwget.c */,
-				585964141681C536005D11BC /* testminiwget.sh */,
-				585964151681C536005D11BC /* testminixml.c */,
-				585964161681C536005D11BC /* testupnpigd.py */,
-				585964171681C536005D11BC /* testupnpreplyparse.c */,
-				585964181681C536005D11BC /* updateminiupnpcstrings.sh */,
-				585964191681C536005D11BC /* upnpc-shared */,
-				5859641A1681C536005D11BC /* upnpc-static */,
-				5859641B1681C536005D11BC /* upnpc.c */,
-				5859641C1681C536005D11BC /* upnpc.o */,
-				5859641D1681C536005D11BC /* upnpcommands.c */,
-				5859641E1681C536005D11BC /* upnpcommands.h */,
-				5859641F1681C536005D11BC /* upnpcommands.o */,
-				585964201681C536005D11BC /* upnperrors.c */,
-				585964211681C536005D11BC /* upnperrors.h */,
-				585964221681C536005D11BC /* upnperrors.o */,
-				585964231681C536005D11BC /* upnpreplyparse.c */,
-				585964241681C536005D11BC /* upnpreplyparse.h */,
-				585964251681C536005D11BC /* upnpreplyparse.o */,
-				585964261681C536005D11BC /* VERSION */,
-			);
-			path = miniupnpc;
-			sourceTree = "<group>";
-		};
-		585963E11681C536005D11BC /* java */ = {
-			isa = PBXGroup;
-			children = (
-				585963E21681C536005D11BC /* JavaBridgeTest.java */,
-				585963E31681C536005D11BC /* testjava.sh */,
-			);
-			path = java;
-			sourceTree = "<group>";
-		};
-		585963E91681C536005D11BC /* man3 */ = {
-			isa = PBXGroup;
-			children = (
-				585963EA1681C536005D11BC /* miniupnpc.3 */,
-			);
-			path = man3;
-			sourceTree = "<group>";
-		};
-		585964041681C536005D11BC /* msvc */ = {
-			isa = PBXGroup;
-			children = (
-				585964051681C536005D11BC /* miniupnpc.sln */,
-				585964061681C536005D11BC /* miniupnpc.vcproj */,
-				585964071681C536005D11BC /* upnpc-static.vcproj */,
-			);
-			path = msvc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1330,28 +1072,6 @@
 				585963451681B526005D11BC /* globalAPI.cpp in Sources */,
 				585963461681B526005D11BC /* privateFunction.cpp in Sources */,
 				585963491681B758005D11BC /* RakVoice.cpp in Sources */,
-				585964281681C536005D11BC /* connecthostport.c in Sources */,
-				5859642A1681C536005D11BC /* igd_desc_parse.c in Sources */,
-				5859642C1681C536005D11BC /* JavaBridgeTest.java in Sources */,
-				5859642F1681C537005D11BC /* Makefile in Sources */,
-				585964301681C537005D11BC /* minihttptestserver.c in Sources */,
-				585964311681C537005D11BC /* minisoap.c in Sources */,
-				585964331681C537005D11BC /* minissdpc.c in Sources */,
-				585964351681C537005D11BC /* miniupnpc.c in Sources */,
-				585964371681C537005D11BC /* miniupnpcmodule.c in Sources */,
-				585964381681C537005D11BC /* miniwget.c in Sources */,
-				5859643A1681C537005D11BC /* minixml.c in Sources */,
-				5859643C1681C537005D11BC /* minixmlvalid.c in Sources */,
-				5859643D1681C537005D11BC /* portlistingparse.c in Sources */,
-				5859643F1681C537005D11BC /* receivedata.c in Sources */,
-				585964411681C537005D11BC /* testigddescparse.c in Sources */,
-				585964421681C537005D11BC /* testminiwget.c in Sources */,
-				585964431681C537005D11BC /* testminixml.c in Sources */,
-				585964441681C537005D11BC /* testupnpreplyparse.c in Sources */,
-				585964451681C537005D11BC /* upnpc.c in Sources */,
-				585964471681C537005D11BC /* upnpcommands.c in Sources */,
-				585964491681C537005D11BC /* upnperrors.c in Sources */,
-				5859644B1681C537005D11BC /* upnpreplyparse.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1377,6 +1097,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "/Users/mac-mini/Projects/Demos/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Headers/fmod/**";
 				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/mac-mini/Projects/Demos/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/RankNet";
+				LIBRARY_SEARCH_PATHS = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Libs/libFmod";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Libs/libSpeex";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -1400,6 +1122,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "/Users/mac-mini/Projects/Demos/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Headers/fmod/**";
 				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/mac-mini/Projects/Demos/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Headers/fmod";
+				LIBRARY_SEARCH_PATHS = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Libs/libFmod";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Libs/libSpeex";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "/Users/mac-mini/Projects/Demos/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Headers/fmod";
@@ -1410,13 +1134,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Headers";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/RankNet";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libFmod\"",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libSpeex\"",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libUpnp\"",
 					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs\"",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/miniupnpc\"",
+					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libFmod\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1426,13 +1149,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/Headers";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/mac-mini/Projects/Demos/IMDemoTest/IMCPlusPlusForMacProj/IMCPlusPlusForMacProj/RankNet";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libFmod\"",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libSpeex\"",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libUpnp\"",
 					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs\"",
-					"\"$(SRCROOT)/IMCPlusPlusForMacProj/miniupnpc\"",
+					"\"$(SRCROOT)/IMCPlusPlusForMacProj/Libs/libFmod\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1457,6 +1179,7 @@
 				5859619F1681A8F8005D11BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
